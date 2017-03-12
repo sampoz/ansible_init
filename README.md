@@ -7,6 +7,11 @@ configuration. Based on the Ryan Eschinger's guide
 and the [gist](https://gist.github.com/ryane/e0ea8e4a75b140bf799f) of
 his.
 
+# Dependencies
+This playbook depends on the weareinteractive's apt package. Install it with:
+
+	ansible-galaxy install weareinteractive.apt
+
 ## How to run this
 * Add all the details of your server and the wanted keys/passwords to five_minutes.yml
 * Add the ip or name of you server to inv.ini
